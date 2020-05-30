@@ -56,9 +56,9 @@ namespace ScoringApp
     }
 
 
-    //Does this look familiar? yes it's the same plain oject from the C# notebook, or the schema in the NimbusML notebook
-    //so this can be common code referenced in the notebook and here
-    // For Microsoft intenral audience: Doesn't this look an awful loot like CCS PredictionInput? it's the same only fully customizable in schema!
+    // Does this look familiar? yes it's the same plain oject from the C# notebook, or the schema in the NimbusML notebook
+    // so this can be common code referenced in the notebook and here
+    // For Microsoft internal audience: Doesn't this look an awful loot like CCS PredictionInput? it's the same only fully customizable in schema!
     // And actually CCS is already able to load this on the Common.ML framework.
     public class TaxiTrip
     {
