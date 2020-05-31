@@ -10,8 +10,8 @@ This is an adapted for teaching and learning the complete ML.NET/NimbusML stack 
 3. Install Anaconda, or procure yourself an environment with jupyter notebook.
 4. Instal Graphviz from [here](https://graphviz.gitlab.io/download/) (optional) if you don't install this you won't be able to see pipeline visualizations, but the project still works.
 5. Open Anaconda Prompt and then
-   - 1. Install the dotnet try global tool: `dotnet tool install -g dotnet-try` 
-   - 2. Install the .NET kernel: `dotnet try jupyter install` 
-   - 3. Verify the .NET kernel is installed: `jupyter kernelspec list`
-   - 4. If you installed Graphviz, run the script that puts it on the path: `set_path_graphviz.bat`
-   - 5. Go to root of enlistment and run jupyter notebook: `jupyter notebook`
+   1. Install the dotnet try global tool: `dotnet tool install -g dotnet-try` 
+   2. Install the .NET kernel: `dotnet try jupyter install` 
+   3. Verify the .NET kernel is installed: `jupyter kernelspec list`
+   4. If you installed Graphviz, run the script that puts it on the path: `set_path_graphviz.bat`
+   5. Go to root of enlistment and run jupyter notebook: `jupyter notebook`
