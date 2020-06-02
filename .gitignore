@@ -1,4 +1,4 @@
-.ipynb_checkpoints/*.*
+notebooks/.ipynb_checkpoints/*.*
 **/__pycache__
 **/.vscode
 app/ScoringApp/.vs
