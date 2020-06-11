@@ -1,5 +1,9 @@
 # Dead simple ML.NET for Scientists, Researchers and Engineers
-This repo hosts the working basics of [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) / [NimbusML](https://docs.microsoft.com/en-us/NimbusML/overview) for educational purposes
+
+In this short workshop you’ll learn the basics of [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet), what is it, how does it work, how can you use it to jumpstart your machine learning projects. 
+We will go over examples of models trained directly on C#, and models created on Python through [NimbusML](https://docs.microsoft.com/en-us/NimbusML/overview) . Also, you’ll also learn how to operationalize your model in a simple C# app that emulates your service/project. 
+Once you have seen how to do it, you will try to train a model yourself. Lastly, we will see a demonstration of the power of the ML.NET AutoML.
+
 
 ### Instructions:
 1. Clone this lab
