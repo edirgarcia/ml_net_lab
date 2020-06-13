@@ -53,6 +53,7 @@ dependencies:
     - pyparsing==2.4.7
     - pyrsistent==0.16.0
     - python-dateutil==2.8.1
+    - python-graphviz==0.14
     - pytz==2020.1
     - pywin32==227
     - pywinpty==0.5.7
@@ -71,5 +72,5 @@ dependencies:
     - webencodings==0.5.1
     - widgetsnbextension==3.5.1
     - zipp==3.1.0
-prefix: C:\Users\Edir\Anaconda3\envs\ml_net
+prefix: C:\Users\Edir\.conda\envs\ml_net
 
