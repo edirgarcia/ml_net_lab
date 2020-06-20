@@ -7,15 +7,14 @@ Once you have seen how to do it, you will try to train a model yourself. Lastly,
 
 ### Setup Instructions:
 1. Clone this lab using `git clone https://github.com/edirgarcia/ml_net_lab.git` or download and extract the [zip](https://github.com/edirgarcia/ml_net_lab/archive/master.zip)
-2. Download and Install.NET Core 3.1.103 SDK from [here](https://dotnet.microsoft.com/download/dotnet/current). If you have Windows/x64 you can download directly from [here](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.103-windows-x64-installer) 
-IMPORTANT NOTE: Currently there's an [issue](https://github.com/dotnet/try/issues/844 ) with the dotnet try tool that it does not work with some SDK versions, make sure you're on 3.1.103 you can verify your versions by typing `dotnet --info` in a console. To prevent issues with this lab I recommend that you uninstall any version above 3.1.103
+2. Download and Install.NET Core SDK from [here](https://dotnet.microsoft.com/download). You can verify your installation by typing `dotnet --info` in a console. 
 3. Install [Anaconda](https://www.anaconda.com/products/individual), or procure yourself a Python environment with jupyter notebook.
 4. Install Graphviz from [here](https://graphviz.gitlab.io/download/) (optional) if you don't install this you won't be able to see pipeline visualizations, but the project still works.
 5. Open Anaconda Prompt and then
    1. Create the ml_net environment `conda env create -f ml_net.yml` (this might take a while)
-   2. Install the dotnet try global tool: `dotnet tool install -g dotnet-try` 
+   2. Install the dotnet interactive global tool: `dotnet tool install -g --add-source "https://dotnet.myget.org/F/dotnet-try/api/v3/index.json" Microsoft.dotnet-interactive` 
    3. Activate the conda environment: `conda activate ml_net`
-   4. Install the .NET kernel: `dotnet try jupyter install` 
+   4. Install the .NET kernel: `dotnet interactive jupyter install` 
    5. Verify the .NET kernel is installed: `jupyter kernelspec list`
 
 
