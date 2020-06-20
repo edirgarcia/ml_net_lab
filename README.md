@@ -5,18 +5,26 @@ We will go over examples of models trained directly on C# and models created on 
 Once you have seen how to do it, you will try to train a model yourself. Lastly, we will see a demonstration of the power of the ML.NET AutoML.
 
 
-### Instructions:
-1. Clone this lab
-2. Download and Install.NET Core 3.1 SDK and 2.1 Core from [here](https://dotnet.microsoft.com/download). You can verify if it's already installed in C:\Program Files\dotnet
+### Setup Instructions:
+1. Clone this lab using `git clone https://github.com/edirgarcia/ml_net_lab.git` or download and extract the [zip](https://github.com/edirgarcia/ml_net_lab/archive/master.zip)
+2. Download and Install.NET Core 3.1.103 SDK from [here](https://dotnet.microsoft.com/download/dotnet/current). If you have Windows/x64 you can download directly from [here](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.103-windows-x64-installer) 
+IMPORTANT NOTE: Currently there's an [issue](https://github.com/dotnet/try/issues/844 ) with the dotnet try tool that it does not work with some SDK versions, make sure you're on 3.1.103 you can verify your versions by typing `dotnet --info` in a console. To prevent issues with this lab I recommend that you uninstall any version above 3.1.103
 3. Install [Anaconda](https://www.anaconda.com/products/individual), or procure yourself a Python environment with jupyter notebook.
 4. Install Graphviz from [here](https://graphviz.gitlab.io/download/) (optional) if you don't install this you won't be able to see pipeline visualizations, but the project still works.
 5. Open Anaconda Prompt and then
-   1. Create and activate the ml_net environment `conda env create -f ml_net.yml`
+   1. Create the ml_net environment `conda env create -f ml_net.yml` (this might take a while)
    2. Install the dotnet try global tool: `dotnet tool install -g dotnet-try` 
-   3. Install the .NET kernel: `dotnet try jupyter install` 
-   4. Verify the .NET kernel is installed: `jupyter kernelspec list`
-   5. If you installed Graphviz, run the script that puts it on the path: `set_path_graphviz.bat`
-   6. Go to root of enlistment and run jupyter notebook: `jupyter notebook`
+   3. Activate the conda environment: `conda activate ml_net`
+   4. Install the .NET kernel: `dotnet try jupyter install` 
+   5. Verify the .NET kernel is installed: `jupyter kernelspec list`
+
+
+### Running Instructions:
+1. Open Anaconda Prompt
+2. Navigate to this enlistment `cd <your_path_here>\ml_net_lab`
+3. Activate the conda environment: `conda activate ml_net`
+4. If you installed Graphviz, run the script that puts it on the path: `set_path_graphviz.bat`
+5. Run jupyter notebook: `jupyter notebook`
 
 Credit disclaimers:
 The original author of the C# taxi predict notebook is Zeeshan Siddiqui ([codemzs](https://github.com/codemzs)), I wrote the NimbusML version attempting to emulate the same pipeline.
