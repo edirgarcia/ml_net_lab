@@ -7,10 +7,10 @@ Once you have seen how to do it, you will try to train a model yourself. Lastly,
 
 ### Setup Instructions:
 1. Clone this lab using `git clone https://github.com/edirgarcia/ml_net_lab.git` or download and extract the [zip](https://github.com/edirgarcia/ml_net_lab/archive/master.zip)
-2. Download and Install.NET Core SDK from [here](https://dotnet.microsoft.com/download). You can verify your installation by typing `dotnet --info` in a console. 
+2. Download and Install .NET Core SDK from [here](https://dotnet.microsoft.com/download). You can verify your installation by typing `dotnet --info` in a console. 
 3. Install [Anaconda](https://www.anaconda.com/products/individual), or procure yourself a Python environment with jupyter notebook.
 4. Install Graphviz from [here](https://graphviz.gitlab.io/download/) (optional) if you don't install this you won't be able to see pipeline visualizations, but the project still works.
-5. Open Anaconda Prompt and then
+5. Once Anaconda is instaleld, open Anaconda Prompt and then
    1. Create the ml_net environment `conda env create -f ml_net.yml` (this might take a while)
    2. Install the dotnet interactive global tool: `dotnet tool install -g --add-source "https://dotnet.myget.org/F/dotnet-try/api/v3/index.json" Microsoft.dotnet-interactive` 
    3. Activate the conda environment: `conda activate ml_net`
