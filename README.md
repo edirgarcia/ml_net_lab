@@ -15,7 +15,7 @@ Once you have seen how to do it, you will try to train a model yourself. Lastly,
    2. Create the ml_net environment `conda env create -f ml_net.yml` (this might take a while)
    3. On a separate cmd Install the dotnet interactive global tool: `dotnet tool install -g --add-source "https://dotnet.myget.org/F/dotnet-try/api/v3/index.json" Microsoft.dotnet-interactive` 
    4. Activate the conda environment: `conda activate ml_net`
-   5. Install the .NET kernel: `dotnet interactive jupyter install` 
+   5. Install the .NET kernel: `dotnet interactive jupyter install` (You might need to close and reopen you Anaconda Prompt for the dotnet interactive tool to load)
    6. Verify the .NET kernel is installed: `jupyter kernelspec list`
 
 
