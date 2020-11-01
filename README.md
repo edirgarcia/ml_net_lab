@@ -6,7 +6,7 @@ Once you have seen how to do it, you will try to train a model yourself. Lastly,
 
 
 ### Setup Instructions:
-0. Make sure you have [git] (https://git-scm.com/downloads)
+0. Make sure you have [git](https://git-scm.com/downloads)
 1. Clone this lab using `git clone https://github.com/edirgarcia/ml_net_lab.git` or download and extract the [zip](https://github.com/edirgarcia/ml_net_lab/archive/master.zip) if you don't have/want git.
 2. Install [Anaconda](https://www.anaconda.com/products/individual), or procure yourself a Python environment with jupyter notebook.
 3. Download and Install .NET Core SDK from [here](https://dotnet.microsoft.com/download). You can verify your installation by typing `dotnet --info` in a console. 
